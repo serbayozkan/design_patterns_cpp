@@ -3,6 +3,7 @@ Demonstration of design patterns using cpp
 # Creational Patterns
 - Singleton Design Pattern based on Scott Meyers Singleton imp.
 - Abstract Factory
+- Builder Pattern
 
 # References
 - https://www.amazon.com/Design-Patterns-Modern-Approaches-Object-Oriented/dp/1484236025
