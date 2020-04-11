@@ -15,7 +15,7 @@
 #include <string>
 #include <memory>
 
-#define ENABLE_THIS_MAIN  ( 1 )
+#define ENABLE_THIS_MAIN  ( 0 )
 
 class car
 {

@@ -6,4 +6,5 @@ CONFIG -= qt
 SOURCES += \
         abstact_factory.cpp \
         builder.cpp \
+        object_pool.cpp \
         singleton.cpp
