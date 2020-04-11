@@ -62,7 +62,7 @@ public:
         }
     }
 
-    void release_resource(resource *object)
+    void return_resource(resource *object)
     {
         object->reset();
         resources.push_back(object);
@@ -87,8 +87,11 @@ int main(void)
     resource_two->set_value(20);
     std::cout << "Resource Two: " << resource_two->get_value() << std::endl;
 
-    pool->release_resource(resource_one);
-    pool->release_resource(resource_two);
+    pool->return_resource(resource_one);
+    pool->return_resource(resource_two);
+
+    std::cout << "Resource One: " << resource_one->get_value() << std::endl;
+    std::cout << "Resource Two: " << resource_two->get_value() << std::endl;
 
     return 0;
 }
