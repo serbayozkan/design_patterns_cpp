@@ -12,7 +12,7 @@
 #include <iostream>
 #include <list>
 
-#define ENABLE_THIS_MAIN  ( 1 )
+#define ENABLE_THIS_MAIN  ( 0 )
 
 class resource
 {

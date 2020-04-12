@@ -5,6 +5,7 @@ Demonstration of design patterns using cpp
 - Abstract Factory
 - Builder Pattern
 - Object Pool
+- Prototype
 
 # References
 - https://www.amazon.com/Design-Patterns-Modern-Approaches-Object-Oriented/dp/1484236025

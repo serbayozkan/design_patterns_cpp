@@ -7,4 +7,5 @@ SOURCES += \
         abstact_factory.cpp \
         builder.cpp \
         object_pool.cpp \
+        prototype.cpp \
         singleton.cpp
